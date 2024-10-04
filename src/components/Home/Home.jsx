@@ -60,7 +60,7 @@ function Home({ isLoading }) {
           </div>
           <div className='flex flex-col md:flex-row gap-16 items-center'>
             <div>
-              <p className='text-accent'>My journey in programming has been a thrilling ride of learning and discovery. I’ve developed skills in HTML, CSS, JavaScript, and Python, and I’m expanding my expertise in React JS and Django.</p><br />
+              <p className='text-accent'>My journey in programming has been a thrilling ride of learning and discovery. I’ve developed skills in HTML, CSS, JavaScript, React JS and Java, and I’m expanding my expertise in React JS and Spring Boot.</p><br />
               <p className='text-accent'>I enjoy building dynamic web applications that offer smooth user experiences. From front-end design to back-end logic, I take pleasure in creating efficient and elegant solutions.</p><br />
               <p className='text-accent'>I’m keen on exploring new technologies and frameworks, staying updated with trends in web development. Whether it’s interactive UIs or robust back-end systems, I’m passionate about turning ideas into reality through code.</p>
 
@@ -79,7 +79,7 @@ function Home({ isLoading }) {
             <h1 className='font-cairo font-bold text-4xl mt-10 text-center'>What Can I Do <span className='whitespace-nowrap'>For You</span></h1>
             <hr className='border-b-4 border-secondary w-48 mt-3 mb-14 mx-auto md:mx-0' />
           </div>
-          <p className='text-accent '>Discover how I can bring your projects to life. With expertise in web development, I offer a blend of creative UI/UX design, efficient frontend development with React.js, and robust backend solutions using Python and Django. Let's collaborate to turn your ideas into reality.</p>
+          <p className='text-accent '>Discover how I can bring your projects to life. With expertise in web development, I offer a blend of creative UI/UX design, efficient frontend development with React.js, and robust backend solutions using Spring Boot. Let's collaborate to turn your ideas into reality.</p>
           {/* For smaller screens */}
           <div className="md:hidden mt-14">
             <Swiper
@@ -140,7 +140,7 @@ function Home({ isLoading }) {
             <h1 className='font-cairo font-bold text-4xl mt-10 text-center'>Highlighted Creations</h1>
             <hr className='border-b-4 border-secondary w-48 mt-3 mb-14 mx-auto md:mx-0' />
           </div>
-          <p className='text-accent mb-12'>Explore my top projects, crafted with creativity and precision. Each highlights my expertise in UI/UX design and web development, showcasing how I blend aesthetics with functionality. Check out my portfolio to see these impactful digital creations.</p>
+          <p className='text-accent mb-12'>Explore my top projects, crafted with creativity and precision. Each highlights my expertise in UI/UX design, web and java development, showcasing how I blend aesthetics with functionality. Check out my portfolio to see these impactful digital creations.</p>
 
           {/* Project card for smaller screens */}
           <div className='md:hidden my-10'>

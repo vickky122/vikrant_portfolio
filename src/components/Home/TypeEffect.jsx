@@ -6,8 +6,9 @@ function TypeEffect() {
     <Typewriter
       options={{
         strings: [
+          "Full Stack Developer",
           "Web Developer",
-          "Django Developer",
+          "Java Developer",
           "Freelancer",
         ],
         autoStart: true,
