@@ -146,7 +146,7 @@ function Contact() {
             </Button>
           </DialogFooter>
         </Dialog>
-        <p className='text-accent my-20'>If you prefer to send an email directly instead of using the form, feel free to reach out to me at <span className='font-bold italic'>anujchaudhary3112@gmail.com</span>. Whether you have a specific project in mind, a question, or just want to connect, I'm always happy to hear from you. Click <a href="mailto:anujchaudhary3112@gmail.com" className='text-white underline'>here</a> to send an email directly.</p>
+        <p className='text-accent my-20'>If you prefer to send an email directly instead of using the form, feel free to reach out to me at <span className='font-bold italic'>vikrantmani45@gmail.com</span>. Whether you have a specific project in mind, a question, or just want to connect, I'm always happy to hear from you. Click <a href="mailto:vikrantmani45@gmail.com" className='text-white underline'>here</a> to send an email directly.</p>
         <hr className="border-[#ffffff25] my-5" />
       </section>
     </>
