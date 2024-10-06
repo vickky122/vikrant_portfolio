@@ -10,6 +10,7 @@ import bootstrapIcon from '../../assets/bootstrap-logo.svg';
 import reactIcon from '../../assets/react-logo.svg';
 import pythonIcon from '../../assets/python-logo.svg';
 import djangoIcon from '../../assets/django-logo.svg';
+import javaIcon from '../../assets/java-logo.png';
 import wordpressIcon from '../../assets/wordpress-logo.svg';
 import figmaIcon from '../../assets/figma-logo.svg';
 import vscodeIcon from '../../assets/vscode-logo.svg';
@@ -43,8 +44,8 @@ function About() {
             <h1 className='font-cairo font-bold text-4xl text-center mt-10'>Know Who I Am</h1>
             <hr className='border-b-4 border-secondary w-40 mt-3 mb-14 mx-auto md:mx-0' />
           </div>
-          <p className='text-accent'>Hi, I'm Anuj Chaudhary, a web developer from Haryana, India. I create engaging and interactive websites with a passion for coding. Currently pursuing a BCA online, I’m deeply focused on both front-end and back-end development to enhance my skills.</p><br />
-          <p className='text-accent'>Beyond coding, I enjoy exploring design trends, listening to music, and playing video games, which help me stay creative and inspired. These hobbies keep me motivated and refreshed.</p><br />
+          <p className='text-accent'>Hi, I'm Vikrant Kumar Yadav, a full stack java developer from Varanasi, UP, India. I create engaging and interactive websites with a passion for coding. Recently, I have been graduated form VIT Vellore, I’m deeply focused on both front-end and back-end development to enhance my skills.</p><br />
+          <p className='text-accent'>Beyond coding, I enjoy exploring design trends, listening to music, playing cricket and video games, which help me stay creative and inspired. These hobbies keep me motivated and refreshed.</p><br />
           <p className='text-accent'>Committed to continuous learning, I strive to push the boundaries of web development and turn innovative ideas into reality, delivering high-quality solutions for diverse projects.</p>
         </div>
 
@@ -106,15 +107,15 @@ function About() {
               <div><SkillBox icon={reactIcon} className='bg-reactColor border-reactColor' /></div>
             </Tooltip>
             <Tooltip
-              content="Python"
+              content="Java"
               animate={{
                 mount: { scale: 1, y: 0 },
                 unmount: { scale: 0, y: 25 },
               }}>
-              <div><SkillBox icon={pythonIcon} className='bg-pythonColor border-pythonColor' /></div>
+              <div><SkillBox icon={javaIcon} className='bg-pythonColor border-pythonColor' /></div>
             </Tooltip>
             <Tooltip
-              content="Django"
+              content="Spring Boot"
               animate={{
                 mount: { scale: 1, y: 0 },
                 unmount: { scale: 0, y: 25 },
