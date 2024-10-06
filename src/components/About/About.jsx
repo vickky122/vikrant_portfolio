@@ -10,7 +10,7 @@ import bootstrapIcon from '../../assets/bootstrap-logo.svg';
 import reactIcon from '../../assets/react-logo.svg';
 import pythonIcon from '../../assets/python-logo.svg';
 import djangoIcon from '../../assets/django-logo.svg';
-import javaIcon from '../../assets/java-logo.png';
+import javaIcon from '../../assets/java-logo.svg';
 import wordpressIcon from '../../assets/wordpress-logo.svg';
 import figmaIcon from '../../assets/figma-logo.svg';
 import vscodeIcon from '../../assets/vscode-logo.svg';
@@ -172,21 +172,30 @@ function About() {
         {/* Education and certifications div */}
         <div className="py-20">
           <div className='flex flex-col items-center'>
-            <h1 className='font-cairo font-bold text-4xl text-center'>Education and Certifications</h1>
+            <h1 className='font-cairo font-bold text-4xl text-center'>Education and Experience</h1>
             <hr className='border-b-4 border-secondary w-48 mt-3 mb-14 mx-auto md:mx-0' />
           </div>
-          <p className='text-accent'>My education and certifications provide a strong foundation in web development. From basic to advanced skills, these achievements showcase my dedication to learning and expertise in creating effective web applications.</p>
+          <p className='text-accent'>My education and experience provide a strong foundation in java full stack development. From basic to advanced skills, these achievements showcase my dedication to learning and expertise in creating effective web applications.</p>
           <div className='flex justify-center md:gap-20 flex-col md:flex-row mt-10'>
             <div className='mb-5'>
               <h2 className='font-cairo text-2xl font-semibold border-b-4 border-secondary w-max'>Education:</h2>
-              <p className='font-medium flex items-start gap-2 my-7 text-accent'><img src={educationIcon} alt="degree-icon" className='mt-1' /><span>Bachelor of Computer Applications (BCA) <br /> <span className='font-extralight'>Mangalayatan University, Aligarh, India
-                (Currently Pursuing)</span></span></p>
+              <p className='font-medium flex items-start gap-2 my-7 text-accent'><img src={educationIcon} alt="degree-icon" className='mt-1' /><span>Bachelor of Technology (B.Tech) <br /> <span className='font-extralight'>VIT Vellore, Tamil Nadu, India<br></br>
+                (2020-2024)<br></br> (CGPA - 8.3)</span></span></p>
+
+                <h2 className='font-cairo text-2xl font-semibold border-b-4 border-secondary w-max'>Education:</h2>
+              <p className='font-medium flex items-start gap-2 my-7 text-accent'><img src={educationIcon} alt="degree-icon" className='mt-1' /><span>Senior Secondary Education <br /> <span className='font-extralight'>Sant Atulanad COnvent School, Varanasi, UP, India<br></br>
+                (2018-2020)<br></br>(92.4%)</span></span></p>
+
+                <h2 className='font-cairo text-2xl font-semibold border-b-4 border-secondary w-max'>Education:</h2>
+              <p className='font-medium flex items-start gap-2 my-7 text-accent'><img src={educationIcon} alt="degree-icon" className='mt-1' /><span>Secondary Eduation <br /> <span className='font-extralight'>St. Joseph's School, India<br></br>
+                (2016-2018)<br></br>(93.8%)</span></span></p>
             </div>
             <div>
-              <h2 className='font-cairo text-2xl font-semibold border-b-4 border-secondary w-max'>Certifications:</h2>
-              <p className='font-medium flex items-start gap-2 my-7 text-accent'><img src={certificationIcon} alt="certification-icon" className='mt-1' /><span>Web Designing Technology <br /> <span className='font-extralight'>Incapp, 2022</span></span></p>
-              <p className='font-medium flex items-start gap-2 my-7 text-accent'><img src={certificationIcon} alt="certification-icon" className='mt-1' /><span>Python Technology <br /> <span className='font-extralight'>Incapp, 2023</span></span></p>
-              <p className='font-medium flex items-start gap-2 my-7 text-accent'><img src={certificationIcon} alt="certification-icon" className='mt-1' /><span>Django Technology <br /> <span className='font-extralight'>Incapp, 2023</span></span></p>
+              <h2 className='font-cairo text-2xl font-semibold border-b-4 border-secondary w-max'>Experiences:</h2>
+              <p className='font-medium flex items-start gap-2 my-7 text-accent'><img src={certificationIcon} alt="certification-icon" className='mt-1' /><span>Neel Initiative <br /> <span className='font-extralight'>Web Developer<br></br>(Aug 2024 - Present)</span></span></p>
+              <p className='font-medium flex items-start gap-2 my-7 text-accent'><img src={certificationIcon} alt="certification-icon" className='mt-1' /><span>Psylinks Security <br /> <span className='font-extralight'>Web Developer<br></br>(Sept 2024 - Present)</span></span></p>
+              <p className='font-medium flex items-start gap-2 my-7 text-accent'><img src={certificationIcon} alt="certification-icon" className='mt-1' /><span>Kuppismart Livestockify <br /> <span className='font-extralight'>Web Developer Intern<br></br>(June 2024 - July 2024)</span></span></p>
+              <p className='font-medium flex items-start gap-2 my-7 text-accent'><img src={certificationIcon} alt="certification-icon" className='mt-1' /><span>Accenture <br /> <span className='font-extralight'>Accenture Nordic Developer<br></br>(Jan 2024)</span></span></p>
             </div>
           </div>
 
@@ -197,7 +206,7 @@ function About() {
         <div className='py-20 flex flex-col items-center'>
           <p className='text-accent italic mb-6'>Curious about my journey and achievements? Take a closer look at my detailed resume.</p>
           <img src={arrowIcon} alt="arrow-icon" className='translate-x-10 mb-3' />
-          <a href="https://drive.google.com/file/d/1VfrwdctemkqPPCoykPZG-y8HkXSLqmue/view?usp=sharing" target='_blank'><CustomButton
+          <a href="https://drive.google.com/file/d/18wxxGA7P_0DzF85iKjzj11ofMXTxbRUf/view" target='_blank'><CustomButton
             text="View My Resume"
             icon={downloadIcon}
             className='w-[18px]'
