@@ -129,7 +129,7 @@ function Home({ isLoading }) {
             <ServiceCard
               image='https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/backend'
               title="Back-End Development"
-              description="Developing robust and scalable backend systems using Django, ensuring your website performs efficiently and securely."
+              description="Developing robust and scalable backend systems using Spring Boot, ensuring your website performs efficiently and securely."
             />
           </div>
         </div>
