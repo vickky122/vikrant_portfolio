@@ -4,15 +4,16 @@ import { Link } from "react-router-dom";
 import ProjectCard from './ProjectCard';
 import Connect from '../Connect'
 import './Portfolio.css'
+import profile from '../../assets/profile img.png'
 
 function Portfolio() {
   const [showAll, setShowAll] = useState(false);
 
   const projects = [
     {
-      laptopImg: 'https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/proj1laptop',
+      laptopImg: 'https://drive.google.com/file/d/1D-PBxqkzTYUyZ6_4l5J3HTzoWArEFP2a/view?usp=sharing',
       mobileImg: 'https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/proj1mob',
-      title: "IceCreamsCorner Web App",
+      title: "MovieMood",
       description: "Developed an online ice cream shop using Django. Features include user authentication, shopping cart with limits, order placement, and history. Responsive design ensures a seamless experience across devices.",
       demoLink: "https://anuj459.pythonanywhere.com/",
       codeLink: "https://github.com/Anuj579/IceCreamsCorner_webapp"
