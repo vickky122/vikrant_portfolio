@@ -167,10 +167,10 @@ function Home({ isLoading }) {
                 <ProjectCard
                   laptopImg='https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/proj1laptop'
                   mobileImg='https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/proj1mob'
-                  title="IceCreamsCorner Web App"
-                  description="Developed an online ice cream shop using Django. Features include user authentication, shopping cart with limits, order placement, and history. Responsive design ensures a seamless experience across devices."
-                  demoLink="https://anuj459.pythonanywhere.com/"
-                  codeLink="https://github.com/Anuj579/IceCreamsCorner_webapp"
+                  title="MovieMood"
+                  description="Introducing the Movie Review App: a dynamic platform combining Java Spring Boot for backend API and ReactJS for frontend UI. Utilizing MongoDB Atlas for efficient data management, it seamlessly stores movie data and user reviews. Perfect for movie buffs seeking an intuitive and immersive experience."
+                  demoLink="https://moviemoodvky.netlify.app/"
+                  codeLink="https://github.com/vickky122/MovieMood"
                   className='hidden'
                 />
               </SwiperSlide>
@@ -193,10 +193,10 @@ function Home({ isLoading }) {
             <ProjectCard
               laptopImg='https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/proj1laptop'
               mobileImg='https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/proj1mob'
-              title="IceCreamsCorner Web App"
-              description="Developed an online ice cream shop using Django. Features include user authentication, shopping cart with limits, order placement, and history. Responsive design ensures a seamless experience across devices."
-              demoLink="https://anuj459.pythonanywhere.com/"
-              codeLink="https://github.com/Anuj579/IceCreamsCorner_webapp"
+              title="MovieMood"
+              description="Introducing the Movie Review App: a dynamic platform combining Java Spring Boot for backend API and ReactJS for frontend UI. Utilizing MongoDB Atlas for efficient data management, it seamlessly stores movie data and user reviews. Perfect for movie buffs seeking an intuitive and immersive experience."
+              demoLink="https://moviemoodvky.netlify.app/"
+                  codeLink="https://github.com/vickky122/MovieMood"
             />
             <ProjectCard
               laptopImg='https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/proj2laptop'
