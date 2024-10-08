@@ -2,13 +2,13 @@
 
 Welcome to my portfolio website! This project showcases my skills and experience as a web developer. It features a variety of pages and functionalities to give you an insight into my work and expertise.
 
-<div align="center">
+<!-- <div align="center">
   <img alt="Demo" src="./Screenshot/screenshot.png" />
-</div>
+</div> -->
 
 ## 🚀 Live Demo
 
-You can view the live version of my portfolio website [here](https://anujchaudhary.netlify.app/).
+You can view the live version of my portfolio website [here](https://vikrant-portfolio-nine.vercel.app/).
 
 ## 🛠️ Technologies Used
 
@@ -40,7 +40,7 @@ To run this project locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Anuj579/My-Portfolio.git
+   git clone https://github.com/vickky122/vikrant_portfolio.git
 
 2. Navigate to the project directory:
    
