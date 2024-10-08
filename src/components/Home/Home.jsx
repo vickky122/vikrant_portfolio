@@ -169,8 +169,19 @@ function Home({ isLoading }) {
                   mobileImg='https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/proj1mob'
                   title="MovieMood"
                   description="Introducing the Movie Review App: a dynamic platform combining Java Spring Boot for backend API and ReactJS for frontend UI. Utilizing MongoDB Atlas for efficient data management, it seamlessly stores movie data and user reviews. Perfect for movie buffs seeking an intuitive and immersive experience."
-                  demoLink="https://moviemoodvky.netlify.app/"
+                  demoLink="https://night-owl-web.vercel.app/"
                   codeLink="https://github.com/vickky122/MovieMood"
+                  className='hidden'
+                />
+              </SwiperSlide>
+              <SwiperSlide className='justify-center items-center' style={{ display: 'flex' }}>
+                <ProjectCard
+                  laptopImg='https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/proj1laptop'
+                  mobileImg='https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/proj1mob'
+                  title="ShopKart"
+                  description="ShopKart is a full-stack eCommerce website built using React.js for the frontend and Spring Boot for the backend. It allows users to browse products, manage their cart, and complete orders, with features like user authentication and product search for a seamless shopping experience."
+                  demoLink="https://vikrantecommerce.netlify.app/"
+                      codeLink="https://github.com/vickky122/ShopKart"
                   className='hidden'
                 />
               </SwiperSlide>
@@ -178,10 +189,10 @@ function Home({ isLoading }) {
                 <ProjectCard
                   laptopImg='https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/proj2laptop'
                   mobileImg='https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/proj2mob'
-                  title="Time Tracer Website"
-                  description="A web app for tracking time, offering countdown and elapsed time functionalities. Input a target date to see the remaining or elapsed time, featuring a user-friendly interface and a responsive, modern design."
-                  demoLink="https://timetracer9.netlify.app/"
-                  codeLink="https://github.com/Anuj579/TimeTracer"
+                  title="ChatBot AI"
+                  description="This project is an AI chatbot developed using React.js and integrated with the Google Gemini API for generating conversational responses.The application allows users to engage in real-time conversations with the AI while maintaining a seamless chat experience."
+                  demoLink="https://chat-ai-vicky.vercel.app/"
+                  codeLink="https://github.com/vickky122/ChatAI"
                   className='hidden'
                 />
               </SwiperSlide>
@@ -195,16 +206,24 @@ function Home({ isLoading }) {
               mobileImg='https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/proj1mob'
               title="MovieMood"
               description="Introducing the Movie Review App: a dynamic platform combining Java Spring Boot for backend API and ReactJS for frontend UI. Utilizing MongoDB Atlas for efficient data management, it seamlessly stores movie data and user reviews. Perfect for movie buffs seeking an intuitive and immersive experience."
-              demoLink="https://moviemoodvky.netlify.app/"
+              demoLink="https://night-owl-web.vercel.app/"
                   codeLink="https://github.com/vickky122/MovieMood"
+            />
+            <ProjectCard
+              laptopImg='https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/proj1laptop'
+              mobileImg='https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/proj1mob'
+              title="ShopKart"
+              description="ShopKart is a full-stack eCommerce website built using React.js for the frontend and Spring Boot for the backend. It allows users to browse products, manage their cart, and complete orders, with features like user authentication and product search for a seamless shopping experience."
+              demoLink="https://vikrantecommerce.netlify.app/"
+                  codeLink="https://github.com/vickky122/ShopKart"
             />
             <ProjectCard
               laptopImg='https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/proj2laptop'
               mobileImg='https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/proj2mob'
-              title="Time Tracer Website"
-              description="A web app for tracking time, offering countdown and elapsed time functionalities. Input a target date to see the remaining or elapsed time, featuring a user-friendly interface and a responsive, modern design."
-              demoLink="https://timetracer9.netlify.app/"
-              codeLink="https://github.com/Anuj579/TimeTracer"
+              title="ChatBot AI"
+              description="This project is an AI chatbot developed using React.js and integrated with the Google Gemini API for generating conversational responses.The application allows users to engage in real-time conversations with the AI while maintaining a seamless chat experience."
+              demoLink="https://chat-ai-vicky.vercel.app/"
+              codeLink="https://github.com/vickky122/ChatAI"
             />
           </div>
         </div>
