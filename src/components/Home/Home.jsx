@@ -67,7 +67,7 @@ function Home({ isLoading }) {
             </div>
             <div className='relative w-full flex justify-center'>
               <img src={profile} alt="profile-img" className='h-52 z-10' />
-              <img src={gradient} alt="gradient" className='absolute -top-16 h-[350px] z-0' />
+              <img src={gradient} alt="gradient" className='absolute -top-16 h-[300px] z-0' />
               <img src={whitegradient} alt="gradient" className='absolute blur-xl h-52  z-0' />
             </div>
           </div>
