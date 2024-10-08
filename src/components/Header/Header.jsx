@@ -7,7 +7,7 @@ import {
 } from "@material-tailwind/react";
 import CustomButton from '../CustomButton';
 import { ThemeProvider } from "@material-tailwind/react";
-import logo from '../../assets/logo.svg'
+import logo from '../../assets/v_logo.jpg'
 import envelopeicon from '../../assets/envelope.svg'
 
 function Header() {
