@@ -8,7 +8,7 @@ import 'swiper/css/effect-creative';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-import profile from '../../assets/profile img.png'
+import profile from '../../assets/vikrant_profile.png'
 import gradient from '../../assets/radial gradient.webp'
 import whitegradient from '../../assets/white radial gradient.webp'
 import triangle from '../../assets/triangle.svg'
