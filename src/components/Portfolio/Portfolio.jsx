@@ -11,36 +11,36 @@ function Portfolio() {
 
   const projects = [
     {
-      laptopImg: 'https://drive.google.com/file/d/1D-PBxqkzTYUyZ6_4l5J3HTzoWArEFP2a/view?usp=sharing',
-      mobileImg: 'https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/proj1mob',
-      title: "MovieMood",
-      description: "Developed an online ice cream shop using Django. Features include user authentication, shopping cart with limits, order placement, and history. Responsive design ensures a seamless experience across devices.",
-      demoLink: "https://anuj459.pythonanywhere.com/",
-      codeLink: "https://github.com/Anuj579/IceCreamsCorner_webapp"
+      laptopImg:'https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/proj1laptop',
+                  mobileImg:'https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/proj1mob',
+                  title:"MovieMood",
+                  description:"Introducing the Movie Review App: a dynamic platform combining Java Spring Boot for backend API and ReactJS for frontend UI. Utilizing MongoDB Atlas for efficient data management, it seamlessly stores movie data and user reviews. Perfect for movie buffs seeking an intuitive and immersive experience.",
+                  demoLink:"https://night-owl-web.vercel.app/",
+                  codeLink:"https://github.com/vickky122/MovieMood"
     },
     {
       laptopImg: 'https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/proj2laptop',
       mobileImg: 'https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/proj2mob',
-      title: "Time Tracer Website",
-      description: "A web app for tracking time, offering countdown and elapsed time functionalities. Input a target date to see the remaining or elapsed time, featuring a user-friendly interface and a responsive, modern design.",
-      demoLink: "https://timetracer9.netlify.app/",
-      codeLink: "https://github.com/Anuj579/TimeTracer"
+      title: "ShopKart",
+      description: "ShopKart is a full-stack eCommerce website built using React.js for the frontend and Spring Boot for the backend. It allows users to browse products, manage their cart, and complete orders, with features like user authentication and product search for a seamless shopping experience.",
+      demoLink: "https://vikrantecommerce.netlify.app/",
+      codeLink: "https://github.com/vickky122/ShopKart"
     },
     {
       laptopImg: 'https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/movieapp-laptop',
       mobileImg: 'https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/movieapp-mob',
-      title: "Movie Search App",
-      description: "A movie search application that lets users quickly find movies by title. Featuring responsive design, Bootstrap integration, and dynamic API-driven content with smooth loading states for a clean, user-friendly experience.",
-      demoLink: "https://quickmoviesearch.netlify.app/",
-      codeLink: "https://github.com/Anuj579/movie-search-app"
+      title: "ChatBot AI",
+      description: "This project is an AI chatbot developed using React.js and integrated with the Google Gemini API for generating conversational responses.The application allows users to engage in real-time conversations with the AI while maintaining a seamless chat experience.",
+                  demoLink:"https://chat-ai-vicky.vercel.app/",
+                  codeLink:"https://github.com/vickky122/ChatAI"
     },
     {
       laptopImg: 'https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/proj3laptop',
       mobileImg: 'https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/proj3mob',
-      title: "Tax Calculator",
-      description: "A web app for calculating income after tax deductions. Input your gross income, extra income, and age group to get accurate results, displayed in INR. Includes user-friendly error handling and supports multiple tax rates.",
-      demoLink: "https://taxcalculator99.netlify.app/",
-      codeLink: "https://github.com/Anuj579/Tax-calculator"
+      title: "StaffSphere",
+      description: "StaffSphere is a staff management system developed using React.js for the frontend, Spring Boot for the backend, and MySQL for database management. The system facilitates efficient employee data management, task assignments, and staff scheduling, streamlining administrative operations for organizations.",
+      demoLink: "https://github.com/vickky122/StaffSphere-full_stack",
+      codeLink: "https://github.com/vickky122/StaffSphere-full_stack"
     },
     {
       laptopImg: 'https://res.cloudinary.com/dn2xodesd/image/upload/f_auto,q_auto/proj4laptop',
